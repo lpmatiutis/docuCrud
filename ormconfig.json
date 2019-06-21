@@ -1,0 +1,20 @@
+{
+    "name": "default",
+    "type": "postgres",
+    "host": "192.168.30.80",
+    "port": 5432,
+    "username": "redcobrosjp",
+    "password": "redcobrosjp",
+    "database": "documenta",
+    "schema": "redcobrosjp",
+    "synchronize": false,
+    "logging": false,
+    "entities": [
+        "src/entity/**/*.ts"
+    ],
+    "cli": {
+        "entitiesDir": "src/entity",
+        "migrationsDir": "src/migration",
+        "subscribersDir": "src/subscriber"
+    }
+}
