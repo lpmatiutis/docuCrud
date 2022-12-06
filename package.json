@@ -16,8 +16,8 @@
       "@types/helmet": "0.0.43",
       "@types/jsonwebtoken": "^8.3.2",
       "babel-plugin-transform-typescript-metadata": "^0.2.2",
-      "body-parser": "^1.18.1",
-      "express": "^4.15.4",
+      "body-parser": "^1.20.1",
+      "express": "^4.18.2",
       "pg": "^7.3.0",
       "reflect-metadata": "^0.1.13",
       "typeorm": "^0.3.0-alpha.23"
